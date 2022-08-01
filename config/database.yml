@@ -6,16 +6,19 @@ default: &default
   password: joel
   port: 5432
 
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
 development:
   <<: *default
-  database: Recipe_app
+  database: Recipe_database
 
+ 
 test:
   <<: *default
-  database: Recipe_app_test
+  database: Recipe_database_test
 
 production:
   <<: *default
   database: Recipe_production
-  username: Recipe_app
+  username: Recipe
   password: <%= ENV["BLOG_DATABASE_PASSWORD"] %>
