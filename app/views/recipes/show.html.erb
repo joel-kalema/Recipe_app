@@ -11,12 +11,12 @@
                 <div class="d-flex justify-content-end mb-4">
                 <span class="pr-4">Public</span>
                  <div class="form-check form-switch text-center pl-4">
-                 <% if current_user.id == @recipe.user.id %> 
+                    <% if current_user.id == @recipe.user.id %> 
                     <%= button_to recipe_path(@recipe.id), :method => :patch do %>
                         <% if @recipe.public %>
-                            <i class="fa-solid fa-toggle-on" style="font-size:24px;color:green"></i>
+                            <i class="fa-solid fa-toggle-on" style="font-size:24px;color:green">Public</i>
                         <% else %>
-                            <i class="fa-solid fa-toggle-off" style="font-size:24px;color:green"></i>
+                            <i class="fa-solid fa-toggle-off" style="font-size:24px;color:green">Privete</i>
                         <% end %>
                     <% end %>
                 <% end %>
