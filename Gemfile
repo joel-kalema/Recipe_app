@@ -40,7 +40,7 @@ gem 'devise'
 gem 'ffi'
 gem 'font-awesome-sass', '~> 6.1.2'
 gem 'rspec'
-gem 'rubocop', '>= 1.0', '< 2.0'
+gem 'rubocop', '>= 1.0', '< 2.0' # rubocop:todo Bundler/DuplicatedGem
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
