@@ -1,4 +1,4 @@
-require 'test_helper'
+require 'test_helper' # rubocop:todo Layout/EndOfLine
 
 class RecipeControllerTest < ActionDispatch::IntegrationTest
   test 'should get index' do

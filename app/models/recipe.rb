@@ -1,7 +1,7 @@
-class Recipe < ApplicationRecord
+class Recipe < ApplicationRecord # rubocop:todo Layout/EndOfLine
   belongs_to :user
-  has_many :food_recipes, dependent: :destroy
-  has_many :foods, through: :food_recipes
+  has_many :recipe_foods, dependent: :destroy
+  has_many :foods, through: :recipe_foods
 
   validates :name, presence: true, length: { in: 1..50 }
   validates :preparation_time, presence: true, length: { in: 1..100 }

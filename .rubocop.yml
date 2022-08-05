@@ -12,8 +12,6 @@ AllCops:
 
 Layout/LineLength:
   Max: 120
-Layout/EndOfLine:
-  Enabled: False
 Metrics/MethodLength:
   Include:
     - "app/controllers/*"
@@ -42,6 +40,8 @@ Style/DefWithParentheses:
   Enabled: false
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
+Style/EndOfLine:
+  EnforcedStyle: crlf
 
 Layout/HashAlignment:
   EnforcedColonStyle: key
