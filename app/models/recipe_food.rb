@@ -1,4 +1,4 @@
-class FoodRecipe < ApplicationRecord # rubocop:todo Layout/EndOfLine
+class RecipeFood < ApplicationRecord # rubocop:todo Layout/EndOfLine
   belongs_to :recipe
   belongs_to :food
 

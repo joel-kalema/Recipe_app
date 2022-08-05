@@ -16,7 +16,7 @@
         <tr>
           <th class="align-middle"><%= food.name %></th>
           <td class="align-middle"><%= food.measurement_unit %></td>
-          <td class="align-middle">$<%= food.unit_price %></td>
+          <td class="align-middle">$<%= food.price %></td>
           <td class="align-middle"><%= button_to 'Delete', food_url(food), method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger btn-sm" %></td>
         </tr>
       <% end %>
