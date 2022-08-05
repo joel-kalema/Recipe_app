@@ -14,5 +14,5 @@ class GeneralShoppingListController < ApplicationController
         end
       end
     end
-  end
+end
   

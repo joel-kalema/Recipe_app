@@ -2,7 +2,7 @@ class RecipesController < ApplicationController
   before_action :authenticate_user!, except: :public_recipes
 
   def public_recipes
-    @recipes = Recipe.public_recipes
+    @recipes = Recipe.includes(:user).where(public: true)
   end
 
   def show
