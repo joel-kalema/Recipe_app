@@ -37,6 +37,6 @@ class FoodsController < ApplicationController # rubocop:todo Layout/EndOfLine
   end
 
   def food_params
-    params.require(:food).permit(:name, :measurement_unit, :unit_price)
+    params.require(:food).permit(:name, :measurement_unit, :price)
   end
 end
