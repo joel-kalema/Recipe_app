@@ -1,4 +1,4 @@
-source 'https://rubygems.org' # rubocop:todo Layout/EndOfLine
+source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.1.2'
@@ -35,11 +35,18 @@ gem 'jbuilder'
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
+gem 'bullet'
+gem 'devise'
+gem 'ffi'
+gem 'font-awesome-sass', '~> 6.1.2'
+gem 'rspec'
+gem 'rubocop', '>= 1.0', '< 2.0' # rubocop:todo Bundler/DuplicatedGem
+
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+gem 'tzinfo-data'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', require: false
@@ -53,6 +60,8 @@ gem 'bootsnap', require: false
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem 'debug', platforms: %i[mri mingw x64_mingw]
+  gem 'dotenv-rails'
+  gem 'rspec-rails'
 end
 
 group :development do
@@ -72,5 +81,3 @@ group :test do
   gem 'selenium-webdriver'
   gem 'webdrivers'
 end
-
-gem 'devise', '~> 4.8'
