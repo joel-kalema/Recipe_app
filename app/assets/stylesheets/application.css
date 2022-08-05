@@ -14,95 +14,92 @@
  *= require_self
  */
 
- body {
-    background-color: #1aa061;
-    color: #fff;
- }
+body {
+  background-color: #1aa061;
+  color: #fff;
+}
 
- a {
-    color: #fff;
- }
+a {
+  color: #fff;
+}
 
 .navbar {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    background-color: #1aa061!important;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: #1aa061;
-    background-color: #fff;
-    padding: 5px 20px;
-    margin: 20px 30px;
-    border-radius: 20px;
-    border: 1.5px solid #fff;
-    transition: .2s ease;
-}
-
-.navbar a:hover {
-    text-decoration: none;
-    color: #fff;
-    background-color: #1aa061;
-}
-
-.navbar button {
-    border: none;
-    background-color: rgba(255, 255, 255, 0.459);
-    margin-top: 30px;
-    margin-left: 460px;
-    color: #fff;
-    padding: 5px 20px;
-    border-radius: 20px;
-    border: 1.5px solid #fff;
-}
-
-.single_recepie {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 30px;
-    color: black;
-    margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background-color: #1aa061 !important;
 }
 
 .single_recepie a {
-    text-decoration: none;
-   color: #fff;
-   background-color: #1aa061;
-   padding: 5px 20px;
-   border-radius: 20px;
-   border: 1.5px solid #1aa061;
-   transition: .2s ease;
+  text-decoration: none;
+  color: #fff;
+  background-color: #1aa061;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: 1.5px solid #1aa061;
+  transition: 0.2s ease;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #1aa061;
+  background-color: #fff;
+  padding: 5px 20px;
+  margin: 20px 30px;
+  border-radius: 20px;
+  border: 1.5px solid #fff;
+  transition: 0.2s ease;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #1aa061;
+}
+
+.navbar button {
+  background-color: rgba(255, 255, 255, 0.459);
+  margin-top: 30px;
+  margin-left: 460px;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: 1.5px solid #fff;
+}
+
+.single_recepie {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 30px;
+  color: black;
+  margin-bottom: 50px;
 }
 
 .single_recepie a:hover {
-    background-color: #1aa06186;
+  background-color: #1aa06186;
 }
 
 .recepie_details_area {
-    background-color: #fff;
-    color: black;
-    padding: 40px;
-    margin-bottom: 60px;
+  background-color: #fff;
+  color: black;
+  padding: 40px;
+  margin-bottom: 60px;
 }
 
 .recepie_details_area img {
-    width: 80%;
+  width: 80%;
 }
 
 .from-check {
-    background-color: #1aa061;
+  background-color: #1aa061;
 }
 
 .recepies_info button {
-    background-color: #1aa061;
-    color: #fff;
-    padding: 3px 7px;
-    border-radius: 10px;
-    border: #1aa061;
-    cursor: pointer;
+  background-color: #1aa061;
+  color: #fff;
+  padding: 3px 7px;
+  border-radius: 10px;
+  border: #1aa061;
+  cursor: pointer;
 }
-
-
