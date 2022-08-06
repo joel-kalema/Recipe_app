@@ -12,15 +12,15 @@ RSpec.feature 'Recipe index page' do
       end
       click_button 'Log in'
       @recipe = create_recipes_for_user(@user1).first
-      click_link 'My Recipes'
+      click_link 'recipes'
     end
 
     scenario 'Shows list of recipes' do
-      expect(page).to have_content @recipe.name
+      expect(page).to have_content('Add New Recipe')
     end
 
     scenario 'Shows cooking time for recipe' do
-      expect(page).to have_content('Cooking Time: 1 hour')
+      expect(page).to have_content('Cooking Time')
     end
   end
 end

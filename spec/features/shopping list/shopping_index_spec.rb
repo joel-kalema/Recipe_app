@@ -13,7 +13,7 @@ RSpec.feature 'Recipe index page' do
       click_button 'Log in'
       @recipe = create_recipes_for_user(@user1).first
       @food = create_foods_for_user(@user1).first
-      click_link 'My Recipes'
+      click_link 'recipes'
       click_link 'View Recipe'
       click_link 'Generate Shopping List'
     end

@@ -10,16 +10,11 @@ RSpec.feature 'Login Page' do
         fill_in 'Email', with: @user1.email
         fill_in 'Password', with: @user1.password
       end
-      click_button 'Log in'
-      @recipe = create_recipes_for_user(@user1).first
     end
 
-    scenario 'shows my recipe link after user login' do
-      expect(page).to have_content('My Recipes')
+    scenario 'shows foods link after user login' do
+      expect(page).to have_content('foods')
     end
 
-    scenario 'shows sign out link after user login' do
-      expect(page).to have_content('Sign out')
-    end
   end
 end
