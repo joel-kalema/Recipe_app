@@ -15,6 +15,5 @@ RSpec.feature 'Login Page' do
     scenario 'shows foods link after user login' do
       expect(page).to have_content('foods')
     end
-
   end
 end
