@@ -16,7 +16,7 @@
 - Ruby on Rails.
 - PostgreSQL.
 
-## ![182160313-5e38fbbf-f599-4370-8b9c-119dd02673b8](https://user-images.githubusercontent.com/57408419/228855744-5488b0b3-96bc-4319-98d4-20ac7dcc07ef.jpg)
+## ![recipe](https://user-images.githubusercontent.com/57408419/228856016-6cc82034-cac9-4582-8296-f2974f7e15c5.jpg)
 
 ## Getting Started
 
