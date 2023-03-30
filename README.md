@@ -16,7 +16,7 @@
 - Ruby on Rails.
 - PostgreSQL.
 
-## ![Recipe-App-UI-Kit](https://user-images.githubusercontent.com/57408419/182160313-5e38fbbf-f599-4370-8b9c-119dd02673b8.jpg)
+## ![182160313-5e38fbbf-f599-4370-8b9c-119dd02673b8](https://user-images.githubusercontent.com/57408419/228855744-5488b0b3-96bc-4319-98d4-20ac7dcc07ef.jpg)
 
 ## Getting Started
 
