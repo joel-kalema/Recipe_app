@@ -1,4 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Recipe App
 
@@ -17,7 +16,7 @@
 - Ruby on Rails.
 - PostgreSQL.
 
-## ![Recipe-App-UI-Kit](https://user-images.githubusercontent.com/57408419/182160313-5e38fbbf-f599-4370-8b9c-119dd02673b8.jpg)
+## ![recipe](https://user-images.githubusercontent.com/57408419/228856016-6cc82034-cac9-4582-8296-f2974f7e15c5.jpg)
 
 ## Getting Started
 
